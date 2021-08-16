@@ -36,3 +36,49 @@
     transform: rotate(360deg);
   }
 }
+.todoCard{
+  background: #ef32d9;  /* fallback for old browsers */
+  background: linear-gradient(to right, #89fffd, #ef32d9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 200px;
+  width: 40%;
+  margin: 100px auto;
+  border-radius: 10px; 
+  padding-top: 30px;
+}
+.h33{
+  margin-bottom: 20px;
+  text-align: center;
+}
+.input{
+  width: 70%;
+  margin: 0px auto;
+}
+.show{
+  margin-top: 70px;
+}
+.show ol li{
+margin: 5px 0;
+background: linear-gradient(to right, #ffd194, #70e1f5); 
+/* height: 45px; */
+
+}
+.addBtn{
+  text-align: center;
+  margin: 5px auto;
+  width: 150px;
+  height: 35px;
+  padding: 0px;
+}
+
+.delBtn,.editBtn{
+  padding: 0px;
+  float: right;
+  width: 50px;
+  margin: 0px 5px;
+  text-align: center;
+  height: 30px;
+}
+.list-group-item{
+  padding: 6px;
+  justify-content: center;
+}
